@@ -144,6 +144,5 @@ address{
 
 address::after{
     content: '\2665';
-    color: red;
-    
+    color: red;    
 }
