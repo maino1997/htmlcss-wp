@@ -35,13 +35,16 @@ main{
 .spotlight{
     width: 100%;
     height: 400px;
-    background-color: rgb(225,214,122);
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: center;
     margin-bottom: 30px;
+    border-radius: 15px;
 }
 
 .leadership{
     width: 1000px;
-    height: 600px;
+    min-height: 600px;
     background-color: rgb(16,134,244);
 }
 
@@ -57,10 +60,12 @@ footer{
 
 .light-blue-header{
     width: 100%;
-    height: 15%;
-    background-color: rgb(171,207,231);
+    /* height: 15%; */
+    /* background-color: rgb(171,207,231); */
     margin-bottom: 20px;
 }
+
+/*  */
 
 .sidebar{
     width: 25%;
