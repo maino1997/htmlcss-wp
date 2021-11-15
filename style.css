@@ -35,7 +35,7 @@ img{
 }
 
 h2 , h3{
-    color: grey;
+    color: lightgrey;
 }
 
 .op{
@@ -121,4 +121,10 @@ address{
     text-align: center;
     font-style: normal;
 
+}
+
+#inside-text{
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
 }
