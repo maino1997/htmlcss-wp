@@ -13,6 +13,10 @@
 
 li{
     display: inline-block;
+    color: grey;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 15px;
 }
 
 /* Utilities */
@@ -42,9 +46,9 @@ header{
 }
 
 #logo{
-    width: 200px;
-    height: 80px;
-}
+    width: 150px;
+    height: 70px;
+     }
 
 main{
     width: 100%;
@@ -66,9 +70,8 @@ main{
 }
 
 footer{
-    width: 100%;
+    width: 1000px;
     height: 70px;
-    background-color: rgb(132,9,231);
     margin: 15px 0px 20px 0px;
 }
 
@@ -97,3 +100,7 @@ footer{
     margin-right: 20px;
 }
 
+address{
+    text-align: center;
+    
+}
