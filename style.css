@@ -34,7 +34,7 @@ img{
     object-fit: cover;
 }
 
-h3{
+h2 , h3{
     color: grey;
 }
 
@@ -45,6 +45,10 @@ h3{
     height: 250px;
     position: absolute;
     border-radius: 15px;    
+}
+
+#optop{
+    height: 100%;
 }
 
 /* Big Blocks */
@@ -72,6 +76,7 @@ main{
     background-position: center;
     margin-bottom: 30px;
     border-radius: 15px;
+    position: relative;
 }
 
 .leadership{
