@@ -11,6 +11,10 @@
     margin: auto;
 }
 
+li{
+    display: inline-block;
+}
+
 /* Utilities */
 
 .clearfix::after{
