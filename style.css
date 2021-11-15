@@ -37,6 +37,14 @@ h3{
     color: grey;
 }
 
+.op{
+    background-color: black;
+    opacity: 0.2;
+    width: 20%;
+    position: relative;
+    
+}
+
 /* Big Blocks */
 
 header{
@@ -85,15 +93,15 @@ footer{
 }
 
 .sidebar{
-    width: 25%;
-    height: calc(85% - 40px);
+    width: 20%;
+    /* height: calc(85% - 40px); */
     border-radius: 15px;
     float: left;
 }
 
 .main-content{
-    width: calc(50% - 40px);
-    height: calc(85% - 40px);
+    width: calc(60% - 40px);
+    /* height: calc(85% - 40px); */
     float: left;
     border-radius: 15px;
     margin-left: 20px;
@@ -102,5 +110,6 @@ footer{
 
 address{
     text-align: center;
-    
+    font-style: normal;
+
 }
