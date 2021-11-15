@@ -11,11 +11,18 @@
     margin: auto;
 }
 
-li{
-    display: inline-block;
-    color: grey;
-    padding: 5px;
+nav{
     margin-top: 20px;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+    }
+
+a{
+    text-decoration: none;
+    color: grey;
     font-size: 25px;
 }
 
