@@ -27,11 +27,13 @@ a{
 }
 
 h2 , h3{
-    color: lightgrey;
+    color: grey;
+    font-family: sans-serif;
 }
 
 h4{
     margin: 20px 0 20px 0;
+    font-family: sans-serif;
 }
 
 p{
@@ -55,14 +57,14 @@ main img{
 }
 
 
-.op{
+/* main img{
     background-color: black;
     opacity: 0.35;
     width: 100%;
     height: 250px;
     position: absolute;
     border-radius: 15px;    
-}
+} */
 
 #optop{
     height: 100%;
@@ -85,7 +87,7 @@ main{
 .spotlight{
     width: 100%;
     height: 450px;
-    background-image: url(img/banner.jpg);
+    background-image:  linear-gradient( rgba( 0, 0, 0, 0.3) , rgba( 0, 0, 0, 0.3)) , url('img/banner.jpg') ;
     background-size: cover;
     background-position: center;
     margin-bottom: 30px;
@@ -146,9 +148,22 @@ address{
     position: absolute;
     bottom: 50px;
     left: 30px;
+    width: 50%;
 }
 
 address::after{
     content: '\2665';
     color: red;    
+}
+
+figure::after{
+    content: '';
+    background-color:  rgba(0, 0, 0, 0.3);
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+    display:inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;                      
 }
